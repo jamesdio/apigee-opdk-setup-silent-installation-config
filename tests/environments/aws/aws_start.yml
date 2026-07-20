@@ -1,5 +1,5 @@
 ---
-- include: ../../facts.yml
+- import_playbook: ../../facts.yml
 
 - hosts: planet
   connection: local
